@@ -61,10 +61,12 @@ $('#btn').click(function(){
   else if(a == "" || b == "" || c == ""){
     //Triangulo Invalido
     $("#add").html("<div class='row' id='add'><div class='col-sm-12'><img src='components/img/negado.jpg' height='250' width='250' id='img'><br><h2 id='titulo'>Negado</h2></div></div>");
+    navigator.vibrate(500);
   }
   else{
     //Triangulo Invalido
     $("#add").html("<div class='row' id='add'><div class='col-sm-12'><img src='components/img/negado.jpg' height='250' width='250' id='img'><br><h2 id='titulo'>Negado</h2></div></div>");
+    navigator.vibrate(500);
   }
 });
 </script>
